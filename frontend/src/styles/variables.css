@@ -1,0 +1,32 @@
+/* src/styles/variables.css */
+:root {
+  --bg: #F7F4EF;
+  --bg2: #EDEAE3;
+  --bg3: #E3DFD6;
+  --surface: #FFFFFF;
+  --surface2: #F5F2ED;
+  --text: #1A1714;
+  --text2: #5C574F;
+  --text3: #9C9690;
+  --accent: #2B6654;
+  --accent-light: #E8F2EE;
+  --accent2: #C5622A;
+  --accent2-light: #FBF0E9;
+  --blue: #1E5FA3;
+  --blue-light: #E8F0FB;
+  --red: #B83B3B;
+  --red-light: #FBEAEA;
+  --amber: #8B5E0A;
+  --amber-light: #FDF3E3;
+  --border: rgba(26, 23, 20, 0.10);
+  --border2: rgba(26, 23, 20, 0.06);
+  --shadow: 0 1px 3px rgba(26, 23, 20, 0.08), 0 4px 16px rgba(26, 23, 20, 0.06);
+  --shadow2: 0 2px 8px rgba(26, 23, 20, 0.10), 0 8px 32px rgba(26, 23, 20, 0.08);
+  --radius: 12px;
+  --radius2: 8px;
+  --radius3: 20px;
+  --font: 'DM Sans', sans-serif;
+  --font-display: 'DM Serif Display', serif;
+  --sidebar-width: 240px;
+  --topbar-height: 60px;
+}

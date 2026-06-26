@@ -1,0 +1,26 @@
+/* src/components/layout/Topbar.css */
+.topbar-shell {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(247, 244, 239, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 28px;
+  height: var(--topbar-height);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.topbar-title { font-size: 16px; font-weight: 500; flex: 1; }
+.search-box {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius2);
+  padding: 7px 12px;
+  width: 260px;
+}
+.search-box input {
+  border: none; background: transparent; outline: none;
+  font-family: var(--font); font-size: 13px; color: var(--text); width: 100%;
+}
+.search-box input::placeholder { color: var(--text3); }
